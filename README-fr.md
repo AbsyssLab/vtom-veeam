@@ -2,8 +2,11 @@
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE.md)&nbsp;
 [![fr](https://img.shields.io/badge/lang-en-red.svg)](README.md)  
 Ce projet permet l’intégration de Veeam Backup avec l’ordonnanceur Visual TOM.
-Deux solutions sont proposées ici : 
+
+Deux solutions sont proposées ici :
+
   * Solution 1 : Une intégration Windows uniquement qui repose sur les commandes PowerShell
+  * 
   * Solution 2 : Une intégration générique Windows/Linux pour exécuter des jobs sur des agents Veeam
 
 Deux scripts Python à utiliser avec les queues associées : 
@@ -50,17 +53,19 @@ Le modèle applicatif est à importer en fonction de la solution (1/2) choisie e
 Le script Python veeam_wnt.py est défini avec des variables génériques et le script veeam.py nécessite de renseigner le chemin d'installation des commandes Veeam pour la partie Windows : Veeam.Agent.Configurator.exe
 
 Tests avec la solution 1: 
-Appel direct (Python seul)
+  ```Appel direct (Python seul)
 python veeam_wnt.py "NomDuJob" --start
 python veeam_wnt.py "NomDuJob" --status
 python veeam_wnt.py --list
-
+  ```
+  ```Execution avec la queue batch Windows
 queue_veeam_wnt.bat NomDuJob START FULL
 queue_veeam_wnt.bat NomDuJob START INCR
 queue_veeam_wnt.bat NomDuJob STOP
 queue_veeam_wnt.bat NomDuJob ENABLE
 queue_veeam_wnt.bat NomDuJob DISABLE
 queue_veeam_wnt.bat NomDuJob STATUS
+  ```
 
 # Licence
 Ce projet est sous licence Apache 2.0. Voir le fichier [LICENCE](license) pour plus de détails.
