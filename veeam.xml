@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Domain name="ABSYSS" stamp="VTEXPORT : 7.2.1g FR NT64 2025/05/22 Visual Tom (c) Absyss" version="7.2.1g" generationDate="Fri Jul 25 16:36:51 2025">
+  <Queues>
+    <Queue name="queue_veeam" comment=""/>
+  </Queues>
+ 
+  <JobApplicationServers>
+    <JobApplicationServer id="JASc0a83801000048235fe0a4f000000005" name="Veeam" comment="Traitement de sauvegarde Veeam" type="GENERIC">
+      <Properties>
+        <Property key="VTCUSTOM_DEFAULT_QUEUE" value="queue_veeam"/>
+        <Property key="VTCUSTOM_DEFAULT_SCRIPT" value=""/>
+        <Property key="VTCUSTOM_FIELDS.0.COMMENT" value="Options a selectionner"/>
+        <Property key="VTCUSTOM_FIELDS.0.DEFAULT_VALUE" value=""/>
+        <Property key="VTCUSTOM_FIELDS.0.NAME" value="Action"/>
+        <Property key="VTCUSTOM_FIELDS.0.TYPE" value="list"/>
+        <Property key="VTCUSTOM_FIELDS.0.TYPE_OPTIONS" value="START,STATUS,LIST"/>
+        <Property key="VTCUSTOM_FIELDS.0.VISIBLE" value="true"/>
+        <Property key="VTCUSTOM_FIELDS.1.COMMENT" value="Nom du job de backup"/>
+        <Property key="VTCUSTOM_FIELDS.1.DEFAULT_VALUE" value=""/>
+        <Property key="VTCUSTOM_FIELDS.1.NAME" value="Backup Job Name"/>
+        <Property key="VTCUSTOM_FIELDS.1.TYPE" value="character"/>
+        <Property key="VTCUSTOM_FIELDS.1.VISIBLE" value="true"/>
+        <Property key="VTCUSTOM_FIELDS_COUNT" value="2"/>
+      </Properties>
+    </JobApplicationServer>
+  </JobApplicationServers>
+</Domain>

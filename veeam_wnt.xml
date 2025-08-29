@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Domain name="ABSYSS" stamp="VTEXPORT : 7.2.1g FR NT64 2025/05/22 Visual Tom (c) Absyss" version="7.2.1g" generationDate="Fri Jul 25 16:36:24 2025">
+  <Queues>
+    <Queue name="queue_veeam_wnt" comment=""/>
+  </Queues>
+ 
+  <JobApplicationServers>
+    <JobApplicationServer id="JASac1bc0014d69748d688376d700000002" name="Veeam_Wnt" comment="Traitement de sauvegarde Veeam pour Windows" type="GENERIC">
+      <Properties>
+        <Property key="VTCUSTOM_DEFAULT_QUEUE" value="queue_veeam_wnt"/>
+        <Property key="VTCUSTOM_DEFAULT_SCRIPT" value=""/>
+        <Property key="VTCUSTOM_FIELDS.0.COMMENT" value="Nom du job de backup"/>
+        <Property key="VTCUSTOM_FIELDS.0.DEFAULT_VALUE" value=""/>
+        <Property key="VTCUSTOM_FIELDS.0.NAME" value="Backup Job Name"/>
+        <Property key="VTCUSTOM_FIELDS.0.TYPE" value="character"/>
+        <Property key="VTCUSTOM_FIELDS.0.VISIBLE" value="true"/>
+        <Property key="VTCUSTOM_FIELDS.1.COMMENT" value="Options a selectionner"/>
+        <Property key="VTCUSTOM_FIELDS.1.DEFAULT_VALUE" value=""/>
+        <Property key="VTCUSTOM_FIELDS.1.NAME" value="Action"/>
+        <Property key="VTCUSTOM_FIELDS.1.TYPE" value="list"/>
+        <Property key="VTCUSTOM_FIELDS.1.TYPE_OPTIONS" value="START,STOP,ENABLE,DISABLE,STATUS"/>
+        <Property key="VTCUSTOM_FIELDS.1.VISIBLE" value="true"/>
+        <Property key="VTCUSTOM_FIELDS.2.COMMENT" value="Type de sauvegarde Full ou Incrementale, par défaut INCR"/>
+        <Property key="VTCUSTOM_FIELDS.2.DEFAULT_VALUE" value="INCR"/>
+        <Property key="VTCUSTOM_FIELDS.2.NAME" value="Backup Type"/>
+        <Property key="VTCUSTOM_FIELDS.2.TYPE" value="list"/>
+        <Property key="VTCUSTOM_FIELDS.2.TYPE_OPTIONS" value="INCR,FULL"/>
+        <Property key="VTCUSTOM_FIELDS.2.VISIBLE" value="true"/>
+        <Property key="VTCUSTOM_FIELDS_COUNT" value="3"/>
+      </Properties>
+    </JobApplicationServer>
+  </JobApplicationServers>
+</Domain>
