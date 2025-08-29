@@ -2,11 +2,17 @@
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE.md)&nbsp;
 [![fr](https://img.shields.io/badge/lang-fr-yellow.svg)](README-fr.md)  
 This project enables the integration of Veeam Backup with the Visual TOM scheduler.
+
 Two solutions are provided here:
+
 Solution 1: Windows-only integration based on PowerShell commands
+
 Solution 2: Generic Windows/Linux integration to execute jobs on Veeam agents
+
 Two Python scripts are used together with their associated queue wrappers:
+
 Windows integration: veeam_wnt.py with submit_queue_veeam_wnt.bat
+
 Windows/Linux integration: veeam.py with submit_queue_veeam.bat (Windows) or tom_submit.veeam (Linux)
 
 # Disclaimer
