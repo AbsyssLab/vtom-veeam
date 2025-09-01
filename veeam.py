@@ -49,10 +49,10 @@ def get_status():
         sys.exit(1)
 
 def main():
-    parser = argparse.ArgumentParser(description="Script générique Veeam Backup (Linux/Windows)")
-    parser.add_argument("--list", action="store_true", help="Lister les jobs")
-    parser.add_argument("--start", metavar="JOB_NAME", help="Démarrer un job")
-    parser.add_argument("--status", action="store_true", help="Afficher le statut des jobs")
+    parser = argparse.ArgumentParser(description="Generic Veeam Backup script (Linux/Windows)")
+    parser.add_argument("--list", action="store_true", help="List all jobs")
+    parser.add_argument("--start", metavar="JOB_NAME", help="Start a job")
+    parser.add_argument("--status", action="store_true", help="Show the status of jobs")
 
     args = parser.parse_args()
 
@@ -67,3 +67,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
