@@ -48,10 +48,12 @@ if  [ -n ${TOM_JOB_ID:-0} ] ; then
 		echo "--> Exit [${stat_fin_job}] then acknowledgment"
 		${ABM_BIN}/tsend -sT -r${stat_fin_job} -m"Job finished (${stat_fin_job})"
 		${ABM_BIN}/vtgestlog
+        exit ${stat_fin_job}
 	else
 		echo "--> Exit [${stat_fin_job}] then no acknowledgment"
 		${ABM_BIN}/tsend -sE -r${stat_fin_job} -m"Job in error (${stat_fin_job})"
 		${ABM_BIN}/vtgestlog
+		exit ${stat_fin_job}
 	fi
 
 	# logs file  management
