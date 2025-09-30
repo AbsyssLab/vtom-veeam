@@ -15,7 +15,7 @@ if  [ -n ${TOM_JOB_ID:-0} ] ; then
 	echo "_______________________________________________________________________"
 	echo " "
 
-	# TEST mode
+	# TEST Mode
 	if [ "${TOM_JOB_EXEC}" = "TEST" ] ; then
 		echo "Job in TEST mode"
 		${ABM_BIN}/tsend -sT -r0 -m"Job finished (TEST mode)"
