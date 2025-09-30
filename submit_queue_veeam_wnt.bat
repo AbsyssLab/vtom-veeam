@@ -10,7 +10,7 @@ date /T
 time /T
 echo _______________________________________________________________________
 
-rem Mode TEST
+rem TEST Mode
 if "%TOM_JOB_EXEC%" == "TEST" (
 	echo Job execute en mode TEST
 	%ABM_BIN%\tsend -sT -r0 -m"Traitement termine (mode TEST)"
@@ -27,7 +27,7 @@ set VEEAM_CMD=%PATH_PYTHON%\python %ABM_BIN%\veeam.py %JOB_BACKUP%
 echo Execute Veeam backup Job
 echo.
 
-REM Different execution for each options
+REM Different execution for each option
 if "%ACTION%" == "START" (
 	if "%BACKUP_TYPE%" == "FULL" (
 		echo -- Full Backup --
