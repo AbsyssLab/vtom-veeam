@@ -27,7 +27,7 @@ set VEEAM_CMD=%PATH_PYTHON%\python %ABM_BIN%\veeam.py %JOB_BACKUP%
 echo Execute Veeam backup Job
 echo.
 
-REM Different execution for each option
+REM A different execution for each option
 if "%ACTION%" == "START" (
 	if "%BACKUP_TYPE%" == "FULL" (
 		echo -- Full Backup --
