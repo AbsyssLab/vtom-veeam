@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Domain name="ABSYSS" stamp="VTEXPORT : 7.2.1g FR NT64 2025/05/22 Visual Tom (c) Absyss" version="7.2.1g" generationDate="Fri Jul 25 16:36:51 2025">
   <Queues>
-    <Queue name="queue_veeam" comment=""/>
+    <Queue name="queue_veeam" comment="Batch queue for Veeam integration"/>
   </Queues>
- 
+  <Icons>
+    <Icon name="veeam_logo" width="50" height="15" fileSize="1226" fileContent="eJzrDPBz5+WS4mJgYOD19HAJAtJGQMzPwQwkJ7LmfABSCskeQb4MDFVqDAwNLQwMv4BCDS8YGEoNGBheJTAwWM1gYBAvmLMr&#10;0IaBgfFBgE+IK1CB9DKLUTQs0f///z/3nOADxvH8kiC/YGC6EWFkZ1FzNeZSN+KTZhaXVPRZxL3KqunU3hPLBdpPLlWZe9FD&#10;cOthhe47jlKHgkrWtu2Unby+foeB3PQ1EfsaNx+xTsvcIp8oLKp17Ki/TtLu6P1xbAuaF2ZE1S42eXTwRteD47eDY4Rid6nO&#10;7HRWtpc5q6draKEfZnZhTuuKyuR5rEwTlhV2lObm5QdMCrl+3nzJHp7VFdu0r8zytnNKDxRT0qieKWENdCpjkre7y/wXWyfP&#10;BXLYSzx9Xdlfcsry67NaX2tjA0p3ero4hmicPzsxNJwpUKT1poXCMQWFxUxKi5Qkmrs0kpK0byRrl5Wrl5WX/wl7rjcxXP6r&#10;zZ33qfXpa6u3OXyoZ3eyb2B/qi7025uJibGjWeVgy4Klin+0JwcrOEYpHtsutCqlQ4mXuz9gpenEfxfcVl7ZlWGr0NPZy8zz&#10;0U2Ys0NYaPIeL6NsNengoMs6B312mTrPzjyd9OampUnR50/cGRomfT5CGiEru/ZwdXlnLLgS+Mxg+mktrbmu67TmXbXqvBCW&#10;vGJt86J9ByVZCnp9z+p+qFvmdJdry9bykqw7Oq/fvXr38unJb1/5I9gMTdaYblRenCxybK5wrx1rqtjafeVFWbu2FqWV5dUl&#10;Vk0sOPkkSi42cu36jZu/8d3V2b6N72m/UsPBZ503bty5dW+ickF5/2at1IRvt6N62Nvdj5e+qtzetGneHKnLC3W+aVrYWu9n&#10;eHL23IuHe5w8bsdO3xo+qanu348d+3bu1T669+NB5lcXmeNNFy1PD2L4/Clr2sc9cvW11c9/ZJ3YxV87jWNKZiOz3dMfa5/a&#10;z9Hfm+9n1vfNrh0YT5IlrhElwflpJeWJRakMjin5SakKnrmJ6alBqYkplYUnU4EFDgODp6ufyzqnhCYA27PRYQ=="/>
+</Icons> 
   <JobApplicationServers>
     <JobApplicationServer id="JASc0a83801000048235fe0a4f000000005" name="Veeam" comment="Traitement de sauvegarde Veeam" type="GENERIC">
       <Properties>
@@ -25,3 +27,4 @@
     </JobApplicationServer>
   </JobApplicationServers>
 </Domain>
+
