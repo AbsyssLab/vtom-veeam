@@ -4,8 +4,8 @@
     <Queue name="queue_veeam_wnt" comment="Batch Queue Windows for Veeam integration"/>
   </Queues>
   <Icons>
-    <Icon name="veeam_logo" width="50" height="15" fileSize="1226" fileContent="eJzrDPBz5+WS4mJgYOD19HAJAtJGQMzPwQwkJ7LmfABSCskeQb4MDFVqDAwNLQwMv4BCDS8YGEoNGBheJTAwWM1gYBAvmLMr&#10;0IaBgfFBgE+IK1CB9DKLUTQs0f///z/3nOADxvH8kiC/YGC6EWFkZ1FzNeZSN+KTZhaXVPRZxL3KqunU3hPLBdpPLlWZe9FD&#10;cOthhe47jlKHgkrWtu2Unby+foeB3PQ1EfsaNx+xTsvcIp8oLKp17Ki/TtLu6P1xbAuaF2ZE1S42eXTwRteD47eDY4Rid6nO&#10;7HRWtpc5q6draKEfZnZhTuuKyuR5rEwTlhV2lObm5QdMCrl+3nzJHp7VFdu0r8zytnNKDxRT0qieKWENdCpjkre7y/wXWyfP&#10;BXLYSzx9Xdlfcsry67NaX2tjA0p3ero4hmicPzsxNJwpUKT1poXCMQWFxUxKi5Qkmrs0kpK0byRrl5Wrl5WX/wl7rjcxXP6r&#10;zZ33qfXpa6u3OXyoZ3eyb2B/qi7025uJibGjWeVgy4Klin+0JwcrOEYpHtsutCqlQ4mXuz9gpenEfxfcVl7ZlWGr0NPZy8zz&#10;0U2Ys0NYaPIeL6NsNengoMs6B312mTrPzjyd9OampUnR50/cGRomfT5CGiEru/ZwdXlnLLgS+Mxg+mktrbmu67TmXbXqvBCW&#10;vGJt86J9ByVZCnp9z+p+qFvmdJdry9bykqw7Oq/fvXr38unJb1/5I9gMTdaYblRenCxybK5wrx1rqtjafeVFWbu2FqWV5dUl&#10;Vk0sOPkkSi42cu36jZu/8d3V2b6N72m/UsPBZ503bty5dW+ickF5/2at1IRvt6N62Nvdj5e+qtzetGneHKnLC3W+aVrYWu9n&#10;eHL23IuHe5w8bsdO3xo+qanu348d+3bu1T669+NB5lcXmeNNFy1PD2L4/Clr2sc9cvW11c9/ZJ3YxV87jWNKZiOz3dMfa5/a&#10;z9Hfm+9n1vfNrh0YT5IlrhElwflpJeWJRakMjin5SakKnrmJ6alBqYkplYUnU4EFDgODp6ufyzqnhCYA27PRYQ=="/>
-</Icons> 
+    <Icon name="Veeam_logo" width="40" height="40" fileSize="1391" fileContent="eJwBbwWQ+olQTkcNChoKAAAADUlIRFIAAAAoAAAAKAgDAAAAuyBIXwAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpg&#10;AAA6mAAAF3CculE8AAACOlBMVEVVtUlUtUhTtEZTtEdywWij15yc1JViu1dXtkuPzoek156j152g1pqEynxZt01TtUduwGSD&#10;yXpWtUpStEaU0Iz////x+fDQ6s3+/v77/fv9/v17xXFtwGPW7dPw+O+Qz4mT0Iz//v9ywmh3xG6EyXuByHip2aL6/PmMzYRU&#10;tEd6xXHp9ehQs0OGyn75/PiNzYWFynz+/v+Iy4BUtUeT0Itpvl94xG94xG5Yt0yNzoax3az3+/b1+vT1+vX2+/Xa79hju1jt&#10;9+zK6Me337L5/Pnj8+FkvFlRs0SCyHnn9OVxwWef1Zjj8uFzwmmg1Zme1ZfL6Mf+/v2/47tQs0SLzIOZ05Lx+PDA47tWtkqR&#10;z4nr9urq9une8NxRtEWLzYNeuVNrv2Frv2Bpvl7E5cBhulaU0I1TtUjz+fLf8d3f8dxgulVbuFC137Dh8t+Iy3/4/Pjo9ed6&#10;xXB0wmqx3auy3ayy3a2u3Klat05ovV1qvl/4/Pd+x3SNzoV/yHZRs0X3+/f2+vXG5sLA47zI58RZt05cuFFnvVxsv2FVtUpf&#10;uVRUtUnh8d9mvVyKzILR6s18xnJ3xG30+vPg8d7i8uDz+fP9/f3r9umd1Jae1ZiS0Iuh1pvy+fF9x3Te8Nt5xW94xW91w2th&#10;u1ab05T0+vTy+fL8/fx7xnJlvFtmvFtnvV2t26f6/PqX0pCh1pqDyXt0w2rd8Nvm9OTl8+Tl8+Pn9Ob9/fzF5sF5xXD8/vxc&#10;uFCJzIGi15yi1ptvwGXT6BwDAAAAAWJLR0QV5dj5owAAAAlwSFlzAAAOwwAADsMBx2+oZAAAAAd0SU1FB+kJHhARMClvEvsA&#10;AAKPSURBVDjLzdTnW9NAAIDxuxwFBWlaz2AatLaVCjJatIBViygiU0RBZSjTKnUrThwUFyqiIg7cigv33uN/8+6SJmnCd337&#10;oU3ye3J3aRIA/pcghwBAXFwoDshbMMGSmDRpcrJFK2VKqlVzvM0+lX7jaUJagnW66NAlpaWr54QzZjpnMehyOz1gdoZdyzsn&#10;MwvH4NzsHIFJ7BKdHoSwboa5eT4/1qaYL0vsmkdg3PK4+XoIAqlMKhAiJd4EQYCdExfQoUFh0QJWkScIsAHKoy9kEC5aHCom&#10;hZaULIUmyOSyUonC5UKZkxQSVpTHQ4hpFZVVguSWYWl1dbWtRlwZD2HtKlpN3eo1ogLrIc83rDVCvE6QE0VBWM9gYxPZnWWE&#10;XHPLhlgtG208hQDC1jYjBO0dnWpdVkDgpqRwuH2zCUKMoNIWCCjsjkQiW3MEI9xm287uISW0wy2JJEncSeCu3docC/bsJf9b&#10;z779rAMH/W1ZcvZDAB5u7oXqqo8cRQAfk5TF+47nYjmOHEV9MUdglEK/1H+i8WT9qajPS4Fy+HRh5xkjFKsGQBM825LpJZM6&#10;d36QHkO1F3LysAkOQRDoIJCc8eKly/TGRMNXJL8ZDkAAGYS9I8LVbPpEDl+7PgEsb8UVXTfo0MHREJMTQsl5s8B16/adMjp0&#10;UyKR6cgI78ZdHrqYQSaz+8xnRPZ7EbmS+3QZsnzw0ASBNTxGP2Nj4SDbzeTIaLdxaHKJYym/efDosfDE8VQPnzWQZx3H4oF1&#10;fIj0/MXLV25RB1+Xvam0v1XfIhnvYM/7Dx9Jnz47RB3k8qNf9K8l8Sv4Viyofdfuxx/+FN2LzpL8E4zXWX4pWX7/UW8f5dWp&#10;myPUNjDW3L/pL43ixAxHj5YaAAAAAElFTkSuQmCCzKvrBw=="/>
+  </Icons>
   <JobApplicationServers>
     <JobApplicationServer id="JASac1bc0014d69748d688376d700000002" name="Veeam_Wnt" comment="Veeam Backup Job for Windows" type="GENERIC">
       <Properties>
@@ -29,10 +29,12 @@
         <Property key="VTCUSTOM_FIELDS.2.TYPE_OPTIONS" value="INCR,FULL"/>
         <Property key="VTCUSTOM_FIELDS.2.VISIBLE" value="true"/>
         <Property key="VTCUSTOM_FIELDS_COUNT" value="3"/>
+        <Property key="VTCUSTOM_ICON_NAME" value="@Veeam_logo"/>
       </Properties>
     </JobApplicationServer>
   </JobApplicationServers>
 </Domain>
+
 
 
 
