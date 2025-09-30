@@ -6,7 +6,6 @@ Ce projet permet l’intégration de Veeam Backup avec l’ordonnanceur Visual T
 Deux solutions sont proposées ici :
 
   * Solution 1 : Une intégration Windows uniquement qui repose sur les commandes PowerShell
-  * 
   * Solution 2 : Une intégration générique Windows/Linux pour exécuter des jobs sur des agents Veeam
 
 Deux scripts Python à utiliser avec les queues associées : 
