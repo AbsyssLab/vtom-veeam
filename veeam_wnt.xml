@@ -11,7 +11,7 @@
       <Properties>
         <Property key="VTCUSTOM_DEFAULT_QUEUE" value="queue_veeam_wnt"/>
         <Property key="VTCUSTOM_DEFAULT_SCRIPT" value=""/>
-        <Property key="VTCUSTOM_FIELDS.0.COMMENT" value="Backup Job Name"/>
+        <Property key="VTCUSTOM_FIELDS.0.COMMENT" value="Backup Job name"/>
         <Property key="VTCUSTOM_FIELDS.0.DEFAULT_VALUE" value=""/>
         <Property key="VTCUSTOM_FIELDS.0.NAME" value="Backup Job Name"/>
         <Property key="VTCUSTOM_FIELDS.0.TYPE" value="character"/>
@@ -34,6 +34,7 @@
     </JobApplicationServer>
   </JobApplicationServers>
 </Domain>
+
 
 
 
