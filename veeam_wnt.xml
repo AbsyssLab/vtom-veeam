@@ -11,18 +11,18 @@
       <Properties>
         <Property key="VTCUSTOM_DEFAULT_QUEUE" value="queue_veeam_wnt"/>
         <Property key="VTCUSTOM_DEFAULT_SCRIPT" value=""/>
-        <Property key="VTCUSTOM_FIELDS.0.COMMENT" value="Nom du job de backup"/>
+        <Property key="VTCUSTOM_FIELDS.0.COMMENT" value="Backup Job Name"/>
         <Property key="VTCUSTOM_FIELDS.0.DEFAULT_VALUE" value=""/>
         <Property key="VTCUSTOM_FIELDS.0.NAME" value="Backup Job Name"/>
         <Property key="VTCUSTOM_FIELDS.0.TYPE" value="character"/>
         <Property key="VTCUSTOM_FIELDS.0.VISIBLE" value="true"/>
-        <Property key="VTCUSTOM_FIELDS.1.COMMENT" value="Options a selectionner"/>
+        <Property key="VTCUSTOM_FIELDS.1.COMMENT" value="Options to select"/>
         <Property key="VTCUSTOM_FIELDS.1.DEFAULT_VALUE" value=""/>
         <Property key="VTCUSTOM_FIELDS.1.NAME" value="Action"/>
         <Property key="VTCUSTOM_FIELDS.1.TYPE" value="list"/>
         <Property key="VTCUSTOM_FIELDS.1.TYPE_OPTIONS" value="START,STOP,ENABLE,DISABLE,STATUS"/>
         <Property key="VTCUSTOM_FIELDS.1.VISIBLE" value="true"/>
-        <Property key="VTCUSTOM_FIELDS.2.COMMENT" value="Type de sauvegarde Full ou Incrementale, par défaut INCR"/>
+        <Property key="VTCUSTOM_FIELDS.2.COMMENT" value="Backup type: Incremental (by default) or Full"/>
         <Property key="VTCUSTOM_FIELDS.2.DEFAULT_VALUE" value="INCR"/>
         <Property key="VTCUSTOM_FIELDS.2.NAME" value="Backup Type"/>
         <Property key="VTCUSTOM_FIELDS.2.TYPE" value="list"/>
@@ -34,6 +34,7 @@
     </JobApplicationServer>
   </JobApplicationServers>
 </Domain>
+
 
 
 
