@@ -11,13 +11,13 @@
       <Properties>
         <Property key="VTCUSTOM_DEFAULT_QUEUE" value="queue_veeam"/>
         <Property key="VTCUSTOM_DEFAULT_SCRIPT" value=""/>
-        <Property key="VTCUSTOM_FIELDS.0.COMMENT" value="Options a selectionner"/>
+        <Property key="VTCUSTOM_FIELDS.0.COMMENT" value="Options to select"/>
         <Property key="VTCUSTOM_FIELDS.0.DEFAULT_VALUE" value=""/>
         <Property key="VTCUSTOM_FIELDS.0.NAME" value="Action"/>
         <Property key="VTCUSTOM_FIELDS.0.TYPE" value="list"/>
         <Property key="VTCUSTOM_FIELDS.0.TYPE_OPTIONS" value="START,STATUS,LIST"/>
         <Property key="VTCUSTOM_FIELDS.0.VISIBLE" value="true"/>
-        <Property key="VTCUSTOM_FIELDS.1.COMMENT" value="Nom du job de backup"/>
+        <Property key="VTCUSTOM_FIELDS.1.COMMENT" value="Backup Job name"/>
         <Property key="VTCUSTOM_FIELDS.1.DEFAULT_VALUE" value=""/>
         <Property key="VTCUSTOM_FIELDS.1.NAME" value="Backup Job Name"/>
         <Property key="VTCUSTOM_FIELDS.1.TYPE" value="character"/>
@@ -28,6 +28,7 @@
     </JobApplicationServer>
   </JobApplicationServers>
 </Domain>
+
 
 
 
