@@ -71,6 +71,69 @@ queue_veeam_wnt.bat JobName DISABLE
 queue_veeam_wnt.bat JobName STATUS
   ```
 
+# Available Actions
+
+## Windows Only (queue_veeam_wnt.bat)
+
+<img width="686" height="285" alt="image" src="https://github.com/user-attachments/assets/7d583fe1-f905-4215-b5f4-fae3e81b35be" />
+
+
+| Action           | Description                 |
+| ---------------- | --------------------------- |
+| `--start --full` | Start a full backup         |
+| `--start --incr` | Start an incremental backup |
+| `--stop`         | Stop a job                  |
+| `--disable`      | Disable a job               |
+| `--enable`       | Re-enable a job             |
+| `--status`       | Status of the last run      |
+
+
+
+### Start a backup job
+- Backup Job Name : job name
+- Action : start
+- Backup type : FULL ou INCR (full or incremental backup)
+
+### Stop a backup job
+- Backup Job Name : job name
+- Action : stop
+- Backup type : empty
+
+### Disable un job
+- Backup Job Name : job name
+- Action : disable
+- Backup type : empty
+
+### Re-enable a job
+- Backup Job Name : job name
+- Action : enable
+- Backup type : empty
+
+### Last job status
+- Backup Job Name : empty
+- Action : status
+- Backup type : empty
+
+## Windows or Linux (submit_queue_veeam.bat or tom_submit.veeam)
+
+<img width="681" height="238" alt="image" src="https://github.com/user-attachments/assets/c2c50706-23a0-4881-a94b-89910760ad30" />
+
+
+### List of all jobs
+- Action : list
+- Backup Job Name : empty
+
+### Start a job
+- Action : start
+- Backup Job Name : job name
+
+### Job status
+- Action : status
+- Backup Job Name : job name
+
+
+
+
 # License
 This project is licensed under the Apache 2.0 License - see the [LICENSE](license) file for details
 
