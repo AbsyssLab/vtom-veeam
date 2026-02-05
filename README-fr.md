@@ -76,7 +76,6 @@ queue_veeam_wnt.bat NomDuJob STATUS
 
 | Action           | Description                  |
 | ---------------- | ---------------------------- |
-| `--list`         | Lister tous les jobs         |
 | `--start --full` | Lancer un backup full        |
 | `--start --incr` | Lancer un backup incremental |
 | `--stop`         | Arrêter un job               |
@@ -84,10 +83,6 @@ queue_veeam_wnt.bat NomDuJob STATUS
 | `--enable`       | Réactiver un job             |
 | `--status`       | Statut du dernier run        |
 
-### Lister tous les jobs
-- Backup Job Name : vide
-- Action : list
-- Backup type : vide
 
 ### Lancer un job de backup
 - Backup Job Name : nom du job
@@ -115,7 +110,6 @@ queue_veeam_wnt.bat NomDuJob STATUS
 - Backup type : vide
 
 ## Pour Windows ou Linux (submit_queue_veeam.bat ou tom_submit.veeam)
-
 
 <img width="692" height="236" alt="image" src="https://github.com/user-attachments/assets/33d9a31e-3ab5-4937-998c-d321dd2e998b" />
 
