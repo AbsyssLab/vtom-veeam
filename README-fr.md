@@ -66,6 +66,71 @@ queue_veeam_wnt.bat NomDuJob DISABLE
 queue_veeam_wnt.bat NomDuJob STATUS
   ```
 
+# Actions disponibles
+
+## Pour Windows seulement (queue_veeam_wnt.bat)
+
+
+<img width="694" height="283" alt="image" src="https://github.com/user-attachments/assets/5b4916e1-e995-4e23-9264-db65e3d8ae32" />
+
+
+| Action           | Description                  |
+| ---------------- | ---------------------------- |
+| `--list`         | Lister tous les jobs         |
+| `--start --full` | Lancer un backup full        |
+| `--start --incr` | Lancer un backup incremental |
+| `--stop`         | Arrêter un job               |
+| `--disable`      | Désactiver un job            |
+| `--enable`       | Réactiver un job             |
+| `--status`       | Statut du dernier run        |
+
+### Lister tous les jobs
+- Backup Job Name : vide
+- Action : list
+- Backup type : vide
+
+### Lancer un job de backup
+- Backup Job Name : nom du job
+- Action : start
+- Backup type : FULL ou INCR (sauvegarde totale ou incrémentale)
+
+### Arrêter un job de backup
+- Backup Job Name : nom du job
+- Action : stop
+- Backup type : vide
+
+### Désactiver un job
+- Backup Job Name : nom du job
+- Action : disable
+- Backup type : vide
+
+### Réactiver un job
+- Backup Job Name : nom du job
+- Action : enable
+- Backup type : vide
+
+### Statut du dernier job
+- Backup Job Name : vide
+- Action : status
+- Backup type : vide
+
+## Pour Windows ou Linux (submit_queue_veeam.bat ou tom_submit.veeam)
+
+
+<img width="692" height="236" alt="image" src="https://github.com/user-attachments/assets/33d9a31e-3ab5-4937-998c-d321dd2e998b" />
+
+### Lister tous les jobs
+- Action : list
+- Backup Job Name : vide
+
+### Démarrer un job
+- Action : start
+- Backup Job Name : nom du job
+
+### Statut d'un job
+- Action : status
+- Backup Job Name : nom du job
+  
 # Licence
 Ce projet est sous licence Apache 2.0. Voir le fichier [LICENCE](license) pour plus de détails.
 
